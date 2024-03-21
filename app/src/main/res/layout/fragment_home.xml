@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Send Money"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_to_contact" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="To Contact"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_to_account" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="To Account"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_to_self" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="To Self"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_split_bill" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Split Bill"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_check_balance" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Check Bank Balance"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_wallet_topup" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Wallet"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_add_reminders" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Add Remainder"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_offer_home"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_request_money" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Request Money"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/grey_2"/>
+        <RelativeLayout
+            android:id="@+id/view_pager1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:id="@+id/ln_points_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/view_pager_home"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal"/>
+        </RelativeLayout>
+
+        
+    </ScrollView>
+</FrameLayout>
